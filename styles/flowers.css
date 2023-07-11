@@ -294,11 +294,17 @@ body {
 }
 .last-section{
     background-image: url("../Flower\ Asset/Rectangle 9.png");
-    height: 500px;
+    height: 350px;
+    background-position: 60%;
+   
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
-    padding-top: 10%;
+    margin-left: 90px;
+    margin-right: 90px;
+   
+   
+    
     
 }
 .last-section-title{
@@ -308,6 +314,8 @@ text-align: center;
 font-size: 40px;
 ;
 font-weight: 800;
+padding-top: 7%;
+
 
 }
 .last-section-paragraph{
@@ -323,5 +331,12 @@ input{
     border-radius: 8px;
 background: #FFF;
 width: 500px;
-height: 45px;
+height: 30px;
+}
+#btn{
+    font-size: 15px;
+    padding: 10px 20px;
+
+    font-weight: 400;
+
 }
