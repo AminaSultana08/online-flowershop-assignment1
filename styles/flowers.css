@@ -68,15 +68,15 @@ body {
     padding: 15px 30px;
 }
 .btn-link{
-    color: #FFF;
+    color:  #d34664  ;
 
     font-size: 15px;
 
-    font-weight: 600;
+    font-weight: 700;
 
     border: 0px;
     border-radius: 8px;
-    background: #E55473;
+    background: #FFF;
     padding: 10px 20px;
 
 }
@@ -95,7 +95,8 @@ body {
 .bonus-content {
     justify-content: center;
     text-align: center;
-    margin: 40px;
+    margin: 30px;
+
 }
 
 .flowers-one {
@@ -215,12 +216,14 @@ body {
 
 .instragram {
     width: 100%;
+    margin-top:0%;
    
 
 }
 
 .ins-img1 {
     width: 250px;
+    box-shadow: 3px 3px 15px rgb(71, 67, 67);
 
 
 
@@ -228,18 +231,21 @@ body {
 
 .ins-img2 {
     width: 250px;
+    box-shadow: 3px 3px 15px rgb(71, 67, 67);
 
 
 }
 
 .ins-img3 {
     width: 250px;
+    box-shadow: 3px 3px 15px rgb(71, 67, 67);
 
 }
 
 .ins-img4 {
     width: 250px;
-
+    box-shadow: 3px 3px 15px rgb(71, 67, 67);
+    
 }
 
 /* my own section style */
@@ -257,13 +263,13 @@ body {
     /* background-image: linear-gradient(45deg, rgba(245, 167, 180), rgba(223, 22, 56))
     
   */
-  
+  height: 400px;
 }
 
 .flower-box {
     width: 300px;
     height: 250px;
-    box-shadow: 3px 3px 15px pink;
+    box-shadow: 2px 2px 5px black;
 
 
 }
@@ -277,15 +283,19 @@ body {
 .flower-name {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 5px;
+    
 
 }
 
 .flower-name-title {
     margin-top: 40px;
     text-align: left;
-    text-decoration: underline;
+    font-weight: bold;
+    
+    color: white;
+    
 
 }
 
@@ -298,7 +308,8 @@ body {
     font-size: 15px;
     padding: 10px 20px;
 
-    font-weight: 400;
+    font-weight: 500;
+   justify-content: center;
 }
 
 .see-more {
@@ -361,7 +372,7 @@ input {
     color: white;
     text-align: center;
     justify-content: center;
-    padding: 10%;
+    padding: 7%;
     padding-bottom: 7%;
    
 height: 150px;
