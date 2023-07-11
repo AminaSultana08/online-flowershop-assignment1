@@ -55,7 +55,7 @@ body {
 
 }
 
-.btn-primary {
+.btn-primary , .btn-buy {
     color: #FFF;
 
     font-size: 20px;
@@ -66,6 +66,19 @@ body {
     border-radius: 8px;
     background: #E55473;
     padding: 15px 30px;
+}
+.btn-link{
+    color: #FFF;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    border: 0px;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 20px;
+
 }
 
 /* main section style */
@@ -116,13 +129,7 @@ body {
 
 }
 
-/* #flower1{
-   
-    margin-top: 100px; 
-    margin-left:50px ;
-    margin-right:70px;
-    justify-content: center;
-} */
+
 .main-header {
     margin-top: 170px;
     color: #272727;
@@ -201,20 +208,14 @@ body {
 .instra-img {
     display: flex;
     margin-left: 50px;
-    /* justify-content:space-between;
-  
-    margin: 0px;
    
-    width: 1100px; */
-
-
 
 
 }
 
 .instragram {
     width: 100%;
-    margin-bottom: 20px;
+   
 
 }
 
@@ -243,7 +244,7 @@ body {
 
 /* my own section style */
 .own-creation {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
@@ -254,7 +255,9 @@ body {
     /* background-blend-mode: darken; */
     background-image: url("../Flower\ Asset/background-img.jpg");
     /* background-image: linear-gradient(45deg, rgba(245, 167, 180), rgba(223, 22, 56))
+    
   */
+  
 }
 
 .flower-box {
@@ -286,15 +289,16 @@ body {
 
 }
 
-/* .flower-own-one{
-    max-width: 300px;
-}
-.flower-own-two{
-    max-width: 300px;
-} */
+
 .flower-img {
     width: 200px;
-    padding-left: 10px
+    padding-left: 12px
+}
+.btn-buy{
+    font-size: 15px;
+    padding: 10px 20px;
+
+    font-weight: 400;
 }
 
 .see-more {
