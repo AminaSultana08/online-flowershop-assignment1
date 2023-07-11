@@ -192,7 +192,7 @@ body {
 
 /* instragram section style */
 .instra-heading {
-    
+
     justify-content: center;
     text-align: center;
 
@@ -206,137 +206,168 @@ body {
     margin: 0px;
    
     width: 1100px; */
-   
 
-   
-    
-} 
 
- .instragram{
-   width: 100%;
-   margin-bottom: 20px;
-    
-} 
- .ins-img1{
-    width: 250px;
-  
-   
-   
-}
-.ins-img2{
-   width: 250px;
- 
+
 
 }
-.ins-img3{
+
+.instragram {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.ins-img1 {
+    width: 250px;
+
+
+
+}
+
+.ins-img2 {
+    width: 250px;
+
+
+}
+
+.ins-img3 {
     width: 250px;
 
 }
-.ins-img4{
+
+.ins-img4 {
     width: 250px;
 
-} 
+}
+
 /* my own section style */
-.own-creation{
+.own-creation {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.flowers-container{
+
+.flowers-container {
     display: flex;
-   margin:30px;
-  
-   /* background-blend-mode: darken; */
-   background-image: url("../Flower\ Asset/background-img.jpg");
-   /* background-image: linear-gradient(45deg, rgba(245, 167, 180), rgba(223, 22, 56))
+    margin: 30px;
+
+    /* background-blend-mode: darken; */
+    background-image: url("../Flower\ Asset/background-img.jpg");
+    /* background-image: linear-gradient(45deg, rgba(245, 167, 180), rgba(223, 22, 56))
   */
 }
 
-.flower-box{
+.flower-box {
     width: 300px;
     height: 250px;
     box-shadow: 3px 3px 15px pink;
 
-   
+
 }
-.flowers{
+
+.flowers {
     display: flex;
     height: 100px;
     width: 100px;
 }
-.flower-name{
+
+.flower-name {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     margin-top: 5px;
 
 }
-.flower-name-title{
+
+.flower-name-title {
     margin-top: 40px;
     text-align: left;
     text-decoration: underline;
 
 }
+
 /* .flower-own-one{
     max-width: 300px;
 }
 .flower-own-two{
     max-width: 300px;
 } */
-.flower-img{
+.flower-img {
     width: 200px;
-    padding-left:10px
-
+    padding-left: 10px
 }
-.see-more{
+
+.see-more {
     margin-top: 7%;
     justify-content: center;
     padding-left: 30px;
 }
-.last-section{
+
+.last-section {
     background-image: url("../Flower\ Asset/Rectangle 9.png");
     height: 350px;
     background-position: 60%;
-   
+
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
     margin-left: 90px;
     margin-right: 90px;
-   
-   
-    
-    
 }
-.last-section-title{
+
+.last-section-title {
     color: #272727;
-text-align: center;
+    text-align: center;
 
-font-size: 40px;
-;
-font-weight: 800;
-padding-top: 7%;
+    font-size: 40px;
+    ;
+    font-weight: 800;
+    padding-top: 7%;
 
 
 }
-.last-section-paragraph{
+
+.last-section-paragraph {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
+    text-align: center;
 
-font-size: 18px;
+    font-size: 18px;
 
-font-weight: 400;
-line-height: 30px;
+    font-weight: 400;
+    line-height: 30px;
 }
-input{
+
+input {
     border-radius: 8px;
-background: #FFF;
-width: 500px;
-height: 30px;
+    background: #FFF;
+    width: 500px;
+    height: 30px;
 }
-#btn{
+
+#btn {
     font-size: 15px;
     padding: 10px 20px;
 
     font-weight: 400;
 
+}
+
+.footer {
+    background: #111010;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    padding-bottom: 7%;
+   
+height: 150px;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
 }
