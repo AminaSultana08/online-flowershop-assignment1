@@ -214,6 +214,7 @@ body {
 
  .instragram{
    width: 100%;
+   margin-bottom: 20px;
     
 } 
  .ins-img1{
@@ -236,10 +237,15 @@ body {
 
 } 
 /* my own section style */
+.own-creation{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 .flowers-container{
     display: flex;
-   margin:40px;
-   background-blend-mode: darken;
+   margin:30px;
+  
+   /* background-blend-mode: darken; */
    background-image: url("../Flower\ Asset/background-img.jpg");
    /* background-image: linear-gradient(45deg, rgba(245, 167, 180), rgba(223, 22, 56))
   */
@@ -278,10 +284,44 @@ body {
 } */
 .flower-img{
     width: 200px;
+    padding-left:10px
 
 }
 .see-more{
-    margin-top: 80px;
+    margin-top: 7%;
     justify-content: center;
     padding-left: 30px;
+}
+.last-section{
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+.last-section-title{
+    color: #272727;
+text-align: center;
+
+font-size: 40px;
+;
+font-weight: 800;
+
+}
+.last-section-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+input{
+    border-radius: 8px;
+background: #FFF;
+width: 500px;
+height: 45px;
 }
