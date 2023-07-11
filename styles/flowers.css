@@ -235,3 +235,48 @@ body {
     width: 250px;
 
 } 
+/* my own section style */
+.flowers-container{
+    display: flex;
+   margin:40px;
+   background-blend-mode: darken;
+   /* background-image: url(); */
+   background-image: linear-gradient(45deg, rgba(245, 167, 180), rgba(223, 22, 56))
+ 
+}
+
+.flower-box{
+    width: 300px;
+    height: 250px;
+    box-shadow: 3px 3px 15px pink;
+
+   
+}
+.flowers{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+.flower-name{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+.flower-name-title{
+    margin-top: 40px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+/* .flower-own-one{
+    max-width: 300px;
+}
+.flower-own-two{
+    max-width: 300px;
+} */
+.flower-img{
+    width: 200px;
+
+}
